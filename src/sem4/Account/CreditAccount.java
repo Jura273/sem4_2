@@ -1,5 +1,8 @@
 package sem4.Account;
-//package sem4;
 
-public class CreditAccount {
+
+public class CreditAccount extends Account{
+    public CreditAccount(double initialBalance){
+        super(initialBalance);
+    }
 }
